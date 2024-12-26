@@ -1,4 +1,4 @@
-# Projeto de Análise de Sentimentos
+# Projeto de Análise de Sentimentos Usando Attencion do Zero
 
 Este projeto foi desenvolvido para realizar a classificação de sentimentos com base em textos utilizando técnicas de Processamento de Linguagem Natural (PLN) e Redes Neurais. O pipeline do projeto abrange o pré-processamento de dados, treinamento do modelo, e predições com base nos dados processados.
 
@@ -14,10 +14,10 @@ Este projeto foi desenvolvido para realizar a classificação de sentimentos com
    - Inclui o treinamento do modelo.
    - Utiliza embeddings, camadas de atenção, LSTMs e GRUs para classificação de sentimentos.
    - Realiza a divisão entre conjunto de treinamento e validação.
+   - Calcula métricas de desempenho como acurácia, precisão, revocação e F1-score.
 
 3. **3- Test_validation.ipynb**
    - Avalia o modelo treinado em dados de teste.
-   - Calcula métricas de desempenho como acurácia, precisão, revocação e F1-score.
 
 ---
 
@@ -50,7 +50,6 @@ O arquivo **1- Preprocessamento.ipynb** contém as seguintes etapas:
 - **Letras Minúsculas**: Converte todo o texto para minúsculas.
 - **Remoção de URLs**: Remove links da internet.
 - **Remoção de Nomes de Usuários**: Substitui menções como `@usuario`.
-- **Lematização**: Normaliza as palavras para suas formas canônicas.
 - **Stopwords**: Remove palavras irrelevantes.
 - **Padding e Tokenização**: Prepara os dados para entrada no modelo.
 
