@@ -1,3 +1,6 @@
 fastparquet
 pandas
 seaborn
+nltk
+gensim==3.8.3
+tensorflow
